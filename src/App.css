@@ -1,0 +1,355 @@
+.header-color {
+  background: #836ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #161531,
+    #161531,
+    #161531
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #161531,
+    #161531,
+    #161531
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.result-table {
+  width: 80%;
+  background: #161531; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #161531,
+    #161531
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #161531, #161531);
+  border-radius: 5px;
+}
+
+.table-resume {
+  background: #161531; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #161531,
+    #161531
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #161531, #161531);
+}
+
+#target {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-bottom: 150vh;
+  margin-top: 150vh;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+  width: 200px;
+}
+
+/* Apply this class when #target enters/leaves the viewport */
+
+#target.target-is-active {
+  opacity: 1;
+  transform: none;
+}
+
+.landing-grid {
+  background: #1a1530; /* fallback for old browsers */
+  overflow: 'hidden';
+  background: -webkit-linear-gradient(
+    to right,
+    #161531,
+    #161531,
+    #161531
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #161531,
+    #161531,
+    #161531
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hi-text-landing-page {
+}
+
+/* Projects Page */
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #112240; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #161531,
+    #161531,
+    #161531
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #161531, #161531, #161531);
+  margin: auto;
+  border-radius: 5px;
+  color: white;
+  padding: 2em;
+}
+
+.pasttime-right-col {
+  background: #112240; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #161531,
+    #161531,
+    #161531
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #161531, #161531, #161531);
+  margin: auto;
+  border-radius: 5px;
+  color: white;
+  padding: 2em;
+}
+/* About me page css */
+.splitScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.centerPane {
+  max-width: 45%;
+  width: 40%;
+  height: 40%;
+  max-height: 40%;
+  min-height: 40%;
+  margin: 20px;
+  margin-left: 500px;
+}
+
+.each-fade {
+  display: flex;
+  width: 100%;
+}
+
+.each-fade-test {
+  display: flex;
+  width: 100%;
+}
+
+.about-me-text {
+  display: flex;
+  color: white;
+  text-align: left;
+  width: 50%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.slider-image-about-me {
+  margin-right: 37%;
+  margin-left: -17%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.grid-social-link {
+  height: 100px;
+  width: 100px;
+}
+
+.about-me-title {
+  padding-top: 5%;
+  text-align: center;
+  margin-right: 77%;
+  color: #64ffda;
+}
+
+/* contact page css */
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.avatar-toolbar-splitter {
+  height: 60px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.banner-text {
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 150px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: #ccd6f6;
+}
+
+.banner-text h2 {
+  font-size: 66px;
+  font-weight: bold;
+  color: #8892b0;
+}
+
+.banner-text h5 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #64ffda;
+}
+
+.banner-text p {
+  color: #65708c;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 20%;
+  margin: auto;
+  opacity: 0.4;
+}
+
+.social-links-about-me {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links-about-me i {
+  color: white;
+  font-size: 5em;
+  padding: 100px;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+}
+
+.social-hover {
+  padding-top: 20px;
+  border-radius: 50%;
+}
+
+.social-hover :hover {
+  background: #008cba;
+  border-radius: 50%;
+}
+
+.social-hover-github {
+  padding-top: 20px;
+  border-radius: 50%;
+}
+
+.social-hover-github :hover {
+  background: #000;
+  border-radius: 50%;
+}
