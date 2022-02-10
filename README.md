@@ -1,8 +1,8 @@
-# Conor Walters CV
+# Niall Walters CV
 
 A React based personal portfolio app using create-react-app and React Router v4.
 
-Link to working application - https://personal-cv-90a61.web.app/
+Link to working application - Coming Soon! :D
 
 # Tools
 
