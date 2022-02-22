@@ -85,9 +85,9 @@ const Resume = () => {
             </a>
 
             <h5 style={{ color: "white" }}>Website</h5>
-            <Link to="https://master.d6xazq9c5n57a.amplifyapp.com/" style={{ color: "white" }}>
+            <h5 style={{ color: "white" }}>
               https://master.d6xazq9c5n57a.amplifyapp.com/
-            </Link>
+            </h5>
             <hr
               style={{
                 borderTop: "3px solid #64ffda",
