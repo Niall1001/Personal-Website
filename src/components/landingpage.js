@@ -33,11 +33,11 @@ class Landing extends Component {
               <div className='banner-text' style={styles.bannerFadeIn}>
                 <h5 style={styles.textFadeIn}>Hi, I am </h5>
                 <h1 style={styles.textFadeIn}>Niall Walters.</h1>
-                <h2 style={styles.textFadeIn}>I am a Graduate Software Engineer / Full Stack Web Developer.</h2>
+                <h2 style={styles.textFadeIn}>I am a Graduate Software Engineer/Computer Scientist</h2>
                 <p style={styles.textFadeIn}>With Experience in the following:</p>
                 <p style={styles.textFadeIn}>
-                  HTML/CSS | JavaScript | React | React Native | NodeJS |
-                  ExpressJS | MongoDB | SQL | Openshift/Jenkins
+                  HTML/CSS | JavaScript | React | NodeJS |
+                  ExpressJS | MongoDB/PostgreSQL | SQL | Java Spring | Openshift/Jenkins
                 </p>
 
                 <div className='social-links' style={styles.imageFadeIn}>

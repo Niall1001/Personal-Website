@@ -85,8 +85,8 @@ const Resume = () => {
             </a>
 
             <h5 style={{ color: "white" }}>Website</h5>
-            <Link to="/" style={{ color: "white" }}>
-              To be updated with link
+            <Link to="https://master.d6xazq9c5n57a.amplifyapp.com/" style={{ color: "white" }}>
+              https://master.d6xazq9c5n57a.amplifyapp.com/
             </Link>
             <hr
               style={{
@@ -163,7 +163,7 @@ const Resume = () => {
             <li>	Postman/Swagger-UI to analyse and debug HTTP requests and API method calls.</li>
             <li>	Understanding the practical application of HTML and CSS in conjunction with backend development to create both responsive and dynamic user-friendly websites.</li>
             <li>	Use of GitHub actions to create continuous code development for a project and help maintain pipelines using the most up-to date GitHub commits to the project’s codebase.</li>
-            <li>	Development of projects using No-SQL databases (MongoDB) and SQL databases (MySQL).</li>
+            <li>	Development of projects using No-SQL databases (MongoDB) and SQL databases (PostgresSQL).</li>
             <li>	Implementation of agile methodologies throughout both my placement and graduate role.</li>
             </ul>
           </Slide>
@@ -171,8 +171,8 @@ const Resume = () => {
           <Slide left>
             <hr style={{ borderTop: "3px solid #64ffda" }} />
             <h2>Languages</h2>
-            <Skills skill="React" progress={70} />
-            <Skills skill="HTML/CSS" progress={70} />
+            <Skills skill="React" progress={80} />
+            <Skills skill="HTML/CSS" progress={80} />
             <Skills skill="Windows 7/8/9/10" progress={80} />
             <Skills skill="Postman" progress={80} />
             <Skills skill="Docker" progress={70} />
@@ -180,10 +180,10 @@ const Resume = () => {
             <Skills skill="NodeJS" progress={70} />
             <Skills skill="ExpressJS" progress={70} />
             <Skills skill="Github" progress={70} />
-            <Skills skill="Java" progress={50} />
-            <Skills skill="Mac OS" progress={50} />
+            <Skills skill="Mac OS" progress={70} />
             <Skills skill="Jenkins (CI/CD)" progress={60} />
             <Skills skill="OpenShift (Deployment)" progress={60} />
+            <Skills skill="Java" progress={50} />
           </Slide>
         </Cell>
       </Grid>
