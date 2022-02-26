@@ -74,7 +74,7 @@ class Projects extends Component {
               </CardText>
 
               <CardMenu style={{ color: "#FFFFFF" }}>
-                <a href="Link to be added">
+                <a href="https://master.d6xazq9c5n57a.amplifyapp.com/">
                   <LaunchIcon style={{ marginRight: 10 }} />
                 </a>
                 <a href="https://github.com/Cheesiewalters/PersonalWebsite">
@@ -121,6 +121,51 @@ class Projects extends Component {
               </CardText>
               <CardMenu style={{ color: "#FFFFFF" }}>
                 <a href="https://github.com/Niall1001/CharityApplication">
+                  <GitHubIcon />
+                </a>
+              </CardMenu>
+            </Card>
+            {/* Project 2 */}
+            <Card
+              shadow={5}
+              style={{
+                minWidth: "450",
+                margin: 50,
+                borderRadius: 5,
+                background: "#112240",
+                height: 320,
+                maxHeight: 320,
+              }}
+            >
+              <CardTitle
+                style={{
+                  color: "#e6f1ff",
+                  height: "140px",
+                }}
+              >
+                To Do Application
+              </CardTitle>
+              <CardText
+                style={{
+                  color: "#ccd6f6",
+                }}
+              >
+                This website was created using React, Postgres, JavaScript and AWS.
+                It is a simple to do application that allows the user to track daily tasks 
+                and complete them as such.
+              </CardText>
+              <CardText
+                style={{
+                  color: "#8892b0",
+                }}
+              >
+                <p>Node, React, Javascript, Postgres, AWS hosting </p>
+              </CardText>
+              <CardMenu style={{ color: "#FFFFFF" }}>
+              <a href="http://todofrontendbucket.s3-website.eu-west-2.amazonaws.com">
+                  <LaunchIcon style={{ marginRight: 10 }} />
+                </a>
+                <a href="https://github.com/Niall1001/todo">
                   <GitHubIcon />
                 </a>
               </CardMenu>
