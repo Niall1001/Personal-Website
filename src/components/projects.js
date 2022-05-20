@@ -170,6 +170,47 @@ class Projects extends Component {
                 </a>
               </CardMenu>
             </Card>
+            {/* Project 2 */}
+            <Card
+              shadow={5}
+              style={{
+                minWidth: "450",
+                margin: 50,
+                borderRadius: 5,
+                background: "#112240",
+                height: 320,
+                maxHeight: 320,
+              }}
+            >
+              <CardTitle
+                style={{
+                  color: "#e6f1ff",
+                  height: "140px",
+                }}
+              >
+                EDYC Website
+              </CardTitle>
+              <CardText
+                style={{
+                  color: "#ccd6f6",
+                }}
+              >
+                This website is currently being created using React, Postgres, JavaScript and AWS.
+                It is a website for my local yacht club.
+              </CardText>
+              <CardText
+                style={{
+                  color: "#8892b0",
+                }}
+              >
+                <p>Node, React, Javascript, Postgres, AWS hosting </p>
+              </CardText>
+              <CardMenu style={{ color: "#FFFFFF" }}>
+                <a href="https://github.com/Niall1001/EDYC">
+                  <GitHubIcon />
+                </a>
+              </CardMenu>
+            </Card>
           </div>
         </StyleRoot>
       );
